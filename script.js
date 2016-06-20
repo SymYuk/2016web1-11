@@ -12,7 +12,7 @@ while(true)
 	if(input===num)
 	{
 		message="正解！おめでとう！！";
-		ddocument.alert(message);
+		document.alert(message);
 		break;
 	}
 	else
