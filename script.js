@@ -7,7 +7,6 @@ var message;
 while(true)
 {
 	input=parseInt(window.prompt(word));
-	/*
 	if(input<0)
 	{
 		message='1~256で入力してね';
@@ -20,7 +19,6 @@ while(true)
 		document.getElementById('choice').textContent=message;
 		continue;
 	}
-	*/
 	if(input===num)
 	{
 		message='正解！おめでとう！！';
@@ -42,7 +40,6 @@ while(true)
   		{
   			message='もっと小さいよ！';
 		}	
-		else{}
 	}
 word='1~256の数あてデス！\nチャンス : '+chance+'回';
  document.getElementById('choice').textContent=message;
