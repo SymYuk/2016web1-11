@@ -18,7 +18,7 @@ while(true)
 	else
 	{
   		chance--;
-  		wordC=wordC.substr(0,text.length-1);
+  		wordC.substr(0,text.length-1);
   		if(chance==0)
   		{
   			message="ゲームオーバー！\n正解は"+num+"です";
