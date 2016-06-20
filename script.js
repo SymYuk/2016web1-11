@@ -9,7 +9,7 @@ var message;
 
 while(true)
 {
-	if(input===num)
+	if(input==num)
 	{
 		message="正解！おめでとう！！";
 		document.alert(message);
@@ -19,16 +19,20 @@ while(true)
 	{
   		chance-=1;
   		wordC=wordC.substr(0,text.length-1);
-  		if(chance===0)
+  		if(chance==0)
   		{
   			message="ゲームオーバー！\n正解は"+num+"です";
 			document.alert(message);
 			break;
   		}
   		else if(input<num)
-  		message="もっと大きいよ！\nチャンス : "+wordC;
+  		{
+  			message="もっと大きいよ！\nチャンス : "+wordC;
+  		}
   		else if(input>num)
-  		message="もっと小さいよ！\nチャンス : "+wordC;
+  		{
+  			message="もっと小さいよ！\nチャンス : "+wordC;
+		}	
 	}
 message="もっと小さいよ！\nチャンス : "+wordC;
 input=parseInt(window.prompt(message));
