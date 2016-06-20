@@ -10,6 +10,7 @@ while(true)
 	if(input===num)
 	{
 		message='正解！おめでとう！！';
+		break;
 	}
 	else
 	{
@@ -17,6 +18,7 @@ while(true)
   		if(chance===0)
   		{
   			message='ゲームオーバー！\n正解は'+num+'です';
+  			break;
   		}
   		else if(input<num)
   		{
