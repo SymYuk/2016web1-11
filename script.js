@@ -18,7 +18,7 @@ while(true)
 	else
 	{
   		chance--;
-  		wordC.replace("●","");
+  		wordC.substr(1);
   		if(chance==0)
   		{
   			message="ゲームオーバー！\n正解は"+num+"です";
@@ -26,9 +26,9 @@ while(true)
 			break;
   		}
   		else if(input<num)
-  		message="もっと大きいよ！チャンス : "+wordC
+  		message="もっと大きいよ！\nチャンス : "+wordC
   		else if(input>num)
-  		message="もっと小さいよ！チャンス : "+wordC
+  		message="もっと小さいよ！\nチャンス : "+wordC
 	}
 input=parseInt(window.prompt(message));
 }
