@@ -9,6 +9,7 @@ var message;
 
 while(true)
 {
+	document.alert("けっか？");
 	if(input==num)
 	{
 		message="正解！おめでとう！！";
@@ -34,6 +35,5 @@ while(true)
   			message="もっと小さいよ！\nチャンス : "+wordC;
 		}	
 	}
-message="もっと小さいよ！\nチャンス : "+wordC;
 input=parseInt(window.prompt(message));
 }
