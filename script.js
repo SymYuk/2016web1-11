@@ -6,6 +6,7 @@ var input;
 input=parseInt(window.prompt(word));
 
 var message;
+input=parseInt(window.prompt(word));
 document.alert("けっか？");
 
 while(true)
