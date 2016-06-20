@@ -30,6 +30,7 @@ while(true)
 		}	
 		else{}
 	}
+word='1~256の数あてデス！\nチャンス : '+chance+'回';
  document.getElementById('choice').textContent=message;
 }
  document.getElementById('choice').textContent=message;
