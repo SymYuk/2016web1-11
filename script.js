@@ -17,6 +17,7 @@ while(1)
 		break;
 	}
 	else
+	*/
 	{
   		chance--;
   		wordC=wordC.substr(0,text.length-1);
@@ -31,6 +32,5 @@ while(1)
   		else if(input>num)
   		message="もっと小さいよ！\nチャンス : "+wordC
 	}
-	*/
 input=parseInt(window.prompt(message));
 }
