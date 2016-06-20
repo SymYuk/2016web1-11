@@ -2,16 +2,18 @@ var num=Math.floor(Math.random()*256+1);
 var chance=8;
 var wordC="●●●●●●●●"
 var word="1~256の数あてデス！\nチャンス : "+wordC;
-var input=parseInt(window.prompt(word));
+var input;
+input=parseInt(window.prompt(word));
 
 var message;
 
 while(true)
 {
-	if(answer===number)
+	if(input===num)
 	{
-		message="正解！！";
-		document.getElementById('choice').textContent=message;
+		message="正解！おめでとう！！";
+		ddocument.alert(message);
+		break;
 	}
 	else
 	{
@@ -20,7 +22,7 @@ while(true)
   		if(chance==0)
   		{
   			message="ゲームオーバー！\n正解は"+num+"です";
-			document.getElementById('choice').textContent=message;
+			document.alert(message);
 			break;
   		}
   		else if(input<num)
@@ -28,5 +30,5 @@ while(true)
   		else if(input>num)
   		message="もっと小さいよ！チャンス : "+wordC
 	}
-document.getElementById('choice').textContent=message;
+input=parseInt(window.prompt(message));
 }
