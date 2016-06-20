@@ -10,8 +10,8 @@ while(true)
 	if((input<0) || (256<input))
 	{
 		message='1~256で入力してね';
-		document.getElementById('choice').textContent=message;
-		continue;
+	//	document.getElementById('choice').textContent=message;
+		break;
 	}
 	if(input===num)
 	{
