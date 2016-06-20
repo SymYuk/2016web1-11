@@ -7,13 +7,7 @@ var message;
 while(true)
 {
 	input=parseInt(window.prompt(word));
-	if(input<1)
-	{
-		message='1～256で入力してね';
-		document.getElementById('choice').textContent=message;
-		continue;
-	}
-	if(input>256)
+	if(input<1 || input>256)
 	{
 		message='1～256で入力してね';
 		document.getElementById('choice').textContent=message;
