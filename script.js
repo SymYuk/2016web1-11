@@ -7,13 +7,13 @@ var message;
 while(true)
 {
 	input=parseInt(window.prompt(word));
-	if(input<1 || input>256 || input===null || input==="")
+	if(input<1 || input>256)
 	{
 		message='1～256で入力してね';
 		document.getElementById('choice').textContent=message;
 		continue;
 	}
-	if(input===num)
+	if(input==num)
 	{
 		message='正解！おめでとう！！';
 		break;
@@ -21,7 +21,7 @@ while(true)
 	else
 	{
   		chance-=1;
-  		if(chance===0)
+  		if(chance==0)
   		{
   			message='ゲームオーバー！\n正解は'+num+'です';
   			break;
