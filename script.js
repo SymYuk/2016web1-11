@@ -9,6 +9,7 @@ var message;
 
 while(1)
 {
+	message="ぽ";
 	if(input===num)
 	{
 		message="正解！おめでとう！！";
@@ -17,7 +18,7 @@ while(1)
 	}
 	else
 	{
-  		chance--;
+  		chance-=1;
   		wordC=wordC.substr(0,text.length-1);
   		if(chance===0)
   		{
@@ -26,9 +27,9 @@ while(1)
 			break;
   		}
   		else if(input<num)
-  		message="もっと大きいよ！\nチャンス : "+wordC
+  		message="もっと大きいよ！\nチャンス : "+wordC;
   		else if(input>num)
-  		message="もっと小さいよ！\nチャンス : "+wordC
+  		message="もっと小さいよ！\nチャンス : "+wordC;
 	}
 input=parseInt(window.prompt(message));
 }
