@@ -1,4 +1,4 @@
-var num=Math.floor(Math.random()*3);
+var num=Math.floor(Math.random()*256+1);
 var chance=8;
 var wordC="●●●●●●●●";
 var word='1~256の数あてデス！\nチャンス : '+wordC;
@@ -30,6 +30,7 @@ while(true)
   		{
   			message='もっと小さいよ！\nチャンス : '+wordC;
 		}	
+		else{}
 	}
  document.getElementById('choice').textContent=message;
 }
