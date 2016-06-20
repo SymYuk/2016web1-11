@@ -1,15 +1,14 @@
 var num=Math.floor(Math.random()*256+1);
 var chance=8;
-var wordC="●●●●●●●●"
+var wordC="●●●●●●●●";
 var word="1~256の数あてデス！\nチャンス : "+wordC;
 var input;
 input=parseInt(window.prompt(word));
 
 var message;
 
-while(1)
+while(true)
 {
-	message="ぽ";
 	if(input===num)
 	{
 		message="正解！おめでとう！！";
