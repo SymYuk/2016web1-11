@@ -7,6 +7,12 @@ var message;
 while(true)
 {
 	input=parseInt(window.prompt(word));
+	if(input<0 || 256<input)
+	{
+		message='1~256で入力してね';
+		document.getElementById('choice').textContent=message;
+		continue;
+	}
 	if(input===num)
 	{
 		message='正解！おめでとう！！';
