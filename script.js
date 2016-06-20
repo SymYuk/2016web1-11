@@ -4,10 +4,10 @@ var wordC="●●●●●●●●";
 var word="1~256の数あてデス！\nチャンス : "+wordC;
 var input;
 input=parseInt(window.prompt(word));
+input=parseInt(window.prompt(word));
 
 var message;
-input=parseInt(window.prompt(word));
-document.alert("けっか？");
+
 
 while(true)
 {
