@@ -32,5 +32,5 @@ while(true)
   			word='もっと小さいよ！\nチャンス : '+wordC;
 		}	
 	}
-		word='正解！おめでとう！！';
+var word='正解！おめでとう！！';
 }
