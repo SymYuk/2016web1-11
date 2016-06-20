@@ -4,10 +4,9 @@ var wordC="●●●●●●●●";
 var word='1~256の数あてデス！\nチャンス : '+wordC;
 var input;
 
-input=parseInt(window.prompt(word));
-
 while(true)
 {
+	input=parseInt(window.prompt(word));
 	if(input===num)
 	{
 		word='正解！おめでとう！！';
@@ -33,5 +32,4 @@ while(true)
   			word='もっと小さいよ！\nチャンス : '+wordC;
 		}	
 	}
-input=parseInt(window.prompt(word));
 }
