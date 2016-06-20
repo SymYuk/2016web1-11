@@ -10,7 +10,7 @@ while(true)
 	if(input===num)
 	{
 		word='正解！おめでとう！！';
-		window.alert(word);
+	//	window.alert(word);
 	//	break;
 	}
 	else
@@ -20,7 +20,7 @@ while(true)
   		if(chance===0)
   		{
   			word='ゲームオーバー！\n正解は'+num+'です';
-			window.alert(word);
+		//	window.alert(word);
 		//	break;
   		}
   		else if(input<num)
@@ -32,4 +32,5 @@ while(true)
   			word='もっと小さいよ！\nチャンス : '+wordC;
 		}	
 	}
+		word='正解！おめでとう！！';
 }
