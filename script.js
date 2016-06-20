@@ -1,4 +1,4 @@
-var num=Math.floor(Math.random()*256+1);
+var num=Math.floor(Math.random()*3);
 var chance=8;
 var wordC="●●●●●●●●";
 var word='1~256の数あてデス！\nチャンス : '+wordC;
