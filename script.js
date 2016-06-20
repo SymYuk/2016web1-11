@@ -26,7 +26,7 @@ while(true)
   		}
   		else if(input>num)
   		{
-  			message='もっと小さいよ！;
+  			message='もっと小さいよ！';
 		}	
 		else{}
 	}
