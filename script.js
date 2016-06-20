@@ -30,5 +30,6 @@ while(true)
   		else if(input>num)
   		message="もっと小さいよ！\nチャンス : "+wordC;
 	}
+message="もっと小さいよ！\nチャンス : "+wordC;
 input=parseInt(window.prompt(message));
 }
