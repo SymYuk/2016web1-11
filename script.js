@@ -10,7 +10,7 @@ var message;
 while(true)
 {
 	document.alert("けっか？");
-	if(input==num)
+	if(input===num)
 	{
 		message="正解！おめでとう！！";
 		document.alert(message);
@@ -20,7 +20,7 @@ while(true)
 	{
   		chance-=1;
   		wordC=wordC.substr(0,text.length-1);
-  		if(chance==0)
+  		if(chance===0)
   		{
   			message="ゲームオーバー！\n正解は"+num+"です";
 			document.alert(message);
