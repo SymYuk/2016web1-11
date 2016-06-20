@@ -7,6 +7,7 @@ var input;
 while(true)
 {
 	input=parseInt(window.prompt(word));
+	/*
 	if(input===num)
 	{
 		word='正解！おめでとう！！';
@@ -32,4 +33,5 @@ while(true)
   			word='もっと小さいよ！\nチャンス : '+wordC;
 		}	
 	}
+	*/
 }
