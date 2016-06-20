@@ -7,22 +7,21 @@ var input;
 while(true)
 {
 	input=parseInt(window.prompt(word));
-	/*
 	if(input===num)
 	{
 		word='正解！おめでとう！！';
 		window.alert(word);
-		break;
+	//	break;
 	}
 	else
 	{
   		chance-=1;
   		wordC=wordC.substr(0,text.length-1);
-  		if(chance==0)
+  		if(chance===0)
   		{
   			word='ゲームオーバー！\n正解は'+num+'です';
 			window.alert(word);
-			break;
+		//	break;
   		}
   		else if(input<num)
   		{
@@ -33,5 +32,4 @@ while(true)
   			word='もっと小さいよ！\nチャンス : '+wordC;
 		}	
 	}
-	*/
 }
